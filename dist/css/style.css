@@ -366,15 +366,15 @@ body {
 }
 .card__picture--1 {
   background-image: linear-gradient(to right bottom, #ffb900, #ff7730),
-    url(dist/images/nat-5.jpg);
+    url(../images/nat-5.jpg);
 }
 .card__picture--2 {
   background-image: linear-gradient(to right bottom, #7ed56f, #28b485),
-    url(dist/images/nat-6.jpg);
+    url(../images/nat-6.jpg);
 }
 .card__picture--3 {
   background-image: linear-gradient(to right bottom, #2998ff, #5643fa),
-    url(dist/images/nat-7.jpg);
+    url(../images/nat-7.jpg);
 }
 .card__heading {
   font-size: 2.8rem;
@@ -969,7 +969,7 @@ body {
       rgba(126, 213, 111, 0.8),
       rgba(40, 180, 133, 0.8)
     ),
-    url(dist/images/hero.jpg);
+    url(../images/hero.jpg);
   background-size: cover;
   background-position: top;
   position: relative;
@@ -1165,7 +1165,7 @@ body {
       rgba(126, 213, 111, 0.8),
       rgba(40, 180, 133, 0.8)
     ),
-    url(dist/images/nat-4.jpg);
+    url(../images/nat-4.jpg);
   background-size: cover;
   transform: skewY(-7deg);
   margin-top: -10rem;
@@ -1208,7 +1208,7 @@ body {
       rgba(255, 255, 255, 0.9) 50%,
       transparent 50%
     ),
-    url(dist/images/nat-10.jpg);
+    url(../images/nat-10.jpg);
   background-size: 100%;
   border-radius: 3px;
   box-shadow: 0 1.5rem 4rem rgba(0, 0, 0, 0.2);
@@ -1221,7 +1221,7 @@ body {
         rgba(255, 255, 255, 0.9) 65%,
         transparent 65%
       ),
-      url(dist/images/nat-10.jpg);
+      url(../images/nat-10.jpg);
     background-size: cover;
   }
 }
@@ -1232,7 +1232,7 @@ body {
         rgba(255, 255, 255, 0.9) 0%,
         rgba(255, 255, 255, 0.9) 100%
       ),
-      url(dist/images/nat-10.jpg);
+      url(../images/nat-10.jpg);
     background-size: cover;
   }
 }
