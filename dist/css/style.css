@@ -777,10 +777,12 @@ body {
   }
 }
 @media only screen and (max-width: 37.5em) {
-  .story,
-  .popup__content {
+  .story {
     transform: skewX(0);
-    overflow: scroll;
+  }
+
+  .popup__text {
+    display: none;
   }
 }
 .story__shape {
