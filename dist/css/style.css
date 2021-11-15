@@ -735,11 +735,11 @@ body {
   -webkit-hyphens: auto;
   hyphens: auto;
 }
-.popup:target {
+.popup-open {
   opacity: 1;
   visibility: visible;
 }
-.popup:target .popup__content {
+.popup-open .popup__content {
   opacity: 1;
   transform: translate(-50%, -50%) scale(1);
 }
