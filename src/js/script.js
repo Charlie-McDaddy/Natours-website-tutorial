@@ -22,8 +22,7 @@ modalBookBtn.addEventListener("click", function () {
 });
 
 document.addEventListener("keydown", function (e) {
-  console.log(e.key);
-  if (e.key === "Escape" || e.key === "Enter") {
+  if (e.key === "Escape") {
     if (popup.classList.contains("popup-open")) {
       popup.classList.remove("popup-open");
     }
